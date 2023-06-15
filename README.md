@@ -1,7 +1,7 @@
 # content
 1_ Class: bao gồm các class chức năng
-- database : class kiểm tra điều kiện về nội dung các input.
-- validate : class về kết nối và làm việc với cơ sở dữ liệu.
+- validate : class kiểm tra điều kiện về nội dung các input.
+- database : class về kết nối và làm việc với cơ sở dữ liệu.
   
 2_file css: chứa file css về định dạng các thành phần trang web.
 

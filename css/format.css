@@ -1,0 +1,276 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ .content{
+	margin:  auto;
+	padding: auto;
+}
+
+.form {
+	margin: auto;
+	width: 30%;
+	border: 1px orange double;
+	background-color: #c0c0c0;
+}
+
+.form .row p{
+	margin: 10px 50px;
+	color: blue;
+}
+.form .row p label{
+	color: #000;
+	text-decoration:underline;
+	margin-left: 20px;
+}
+.form .row input{
+	width: 80%;
+	height: 25px;
+}
+.form .row li{
+	list-style-position: inside;
+	margin: auto 50px;
+	color: #000;
+	background-color: #ffff;
+	width: 67%;
+}
+.form .action input{
+	margin: 10px 50px;
+	width: 24%;
+	color: #ffff;
+	padding: 10px;
+	background-color: green;
+	font-weight: bold;
+}
+.form p.error{
+	margin: auto 50px;
+	color: red;
+	background-color: #ffff;
+	width: 67%;
+}
+.form p.success{
+	margin: auto 50px;
+	color: green;
+	width: 67%;
+	background-color: #ffff;
+}
+.form .operation {
+	padding:15px 22px;
+	margin: auto 50px;
+	
+}
+.form .operation a{
+	border: 1px solid #ad9d9d;
+	margin-top: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffff;
+	font: 13px Tahoma, Geneva, sans-serif;
+	font-weight:  bold;
+
+}
+.form .operation input{
+	background-color: green;
+	border: 1px solid #ad9d9d;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffff;
+	font: 13px Tahoma, Geneva, sans-serif;
+	font-weight:  bold;
+}	
+.form .operation a.add{
+	padding:15px 22px;
+	background: green;
+	margin: 10px 50px;
+	
+}
+.form .operation a.cancel{
+	padding:15px;
+	background: #804040;
+	margin: 10px 50px;
+	
+}
+.form .operation a.delete{
+	padding:15px 22px;
+	background: red;
+	margin: 10px 50px;
+	
+}
+.form .operation a:hover{
+	color:orange;
+}
+
+/*============group=========================*/
+
+.content{
+	width: 90%;
+	margin: 20px auto;
+}
+.content h1{
+	text-align: center;
+	margin: 50px;
+	color: blue;
+}
+.content p.error{
+	margin: 10px 50px;
+	color: red;
+	background-color: #ffff;
+	width: 67%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.content p.success{
+	margin: 10px 50px;
+	color: green;
+	width: 67%;
+	background-color: #ffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.group .row{
+	display: table;
+	width: 100%;
+	font: 13px Tahoma, Geneva, sans-serif;
+	
+}
+.group .header{
+	color: #ffff;
+	text-align: center;
+	background-color: blue;
+	
+}
+.group .odd{
+	color: #ffff;
+	text-align: center;
+	background-color: silver;
+	
+}
+.group .row > p{
+	
+	display: table-cell;
+	border: 1px solid #CCC;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.group .row   span{
+	font-weight: normal;
+}
+
+ .group .row .no{
+	width: 5%;
+	text-align: center;	
+}
+
+.group .row .name{
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+}
+.group .row .id{
+	width: 8%;
+}
+
+.group .row .size{
+	width: 8%;
+}
+
+.group .row .action{
+	width: 10%;
+	
+}
+.group .operation {
+	float: right;
+	margin-top: 20px;
+}
+
+.group .operation a{
+	
+	border: 1px solid #ad9d9d;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffff;
+	font: 13px Tahoma, Geneva, sans-serif;
+	font-weight:  bold;
+}
+ .operation a.logout{
+	color: red;
+	background-color: silver;
+	padding: 5px;
+	float: right;
+}
+ .operation a.home{
+	color: purple;
+	background-color: silver;
+	padding: 5px;
+	float: right;
+}
+.group .operation input{
+	background-color: red;
+	border: 1px solid #ad9d9d;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffff;
+	font: 13px Tahoma, Geneva, sans-serif;
+	font-weight:  bold;
+}
+.group .operation a.add{
+	padding:15px 20px;
+	background: green;
+}
+.group .operation a.delete{
+	padding:15px;
+	background: red;
+}
+ a:hover{
+	color:orange;
+}
+.operation a:hover{
+	color:orange;
+}
+.group .pagination li{
+	list-style-position: inside;
+	float: right;
+	list-style-type: none;
+	border: 1px solid #ad9d9d;
+	margin: 5px;
+}
+.group .pagination li.current{
+	background-color: silver;
+}
+.group .pagination li a{
+	padding: 3px;
+}
+/*==========form1=========*/
+
+.form1 .row li{
+	margin: auto;
+	list-style-position: inside;
+	width: 30%;
+	border: 1px solid #ad9d9d;
+	vertical-align: middle;
+	padding: 10px;
+}
+  h1{
+  	margin-top:100px;
+	text-align: center;
+	color: blue;
+}
+.row li a:hover{
+	color:orange;
+}
+.row li a{
+	text-decoration: none;
+}
+
+
+
+
+
+

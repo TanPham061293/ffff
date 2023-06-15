@@ -27,9 +27,9 @@ lựa chọn xem thông tin group hoặc user ở trang này. Khi chọn sẻ đ
 #
 - phân trang: pagination.
 - class.
-- validate.
+- validate/reglax exception.
 - sesion.
-- database.
+- database MySql.
   
 
 
